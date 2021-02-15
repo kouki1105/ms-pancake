@@ -1,0 +1,16 @@
+[12-Feb-2021 14:37:50 UTC] PHP Warning:  Division by zero in /Users/kyogurokouki/Local Sites/mspancake/app/public/wp-admin/includes/class-custom-image-header.php on line 1194
+[12-Feb-2021 14:37:50 UTC] PHP Stack trace:
+[12-Feb-2021 14:37:50 UTC] PHP   1. {main}() /Users/kyogurokouki/Local Sites/mspancake/app/public/wp-admin/admin-ajax.php:0
+[12-Feb-2021 14:37:50 UTC] PHP   2. do_action() /Users/kyogurokouki/Local Sites/mspancake/app/public/wp-admin/admin-ajax.php:184
+[12-Feb-2021 14:37:50 UTC] PHP   3. WP_Hook->do_action() /Users/kyogurokouki/Local Sites/mspancake/app/public/wp-includes/plugin.php:484
+[12-Feb-2021 14:37:50 UTC] PHP   4. WP_Hook->apply_filters() /Users/kyogurokouki/Local Sites/mspancake/app/public/wp-includes/class-wp-hook.php:311
+[12-Feb-2021 14:37:50 UTC] PHP   5. Custom_Image_Header->ajax_header_crop() /Users/kyogurokouki/Local Sites/mspancake/app/public/wp-includes/class-wp-hook.php:287
+[12-Feb-2021 14:37:50 UTC] PHP   6. Custom_Image_Header->get_header_dimensions() /Users/kyogurokouki/Local Sites/mspancake/app/public/wp-admin/includes/class-custom-image-header.php:1300
+[12-Feb-2021 14:38:20 UTC] PHP Warning:  Division by zero in /Users/kyogurokouki/Local Sites/mspancake/app/public/wp-admin/includes/class-custom-image-header.php on line 1194
+[12-Feb-2021 14:38:20 UTC] PHP Stack trace:
+[12-Feb-2021 14:38:20 UTC] PHP   1. {main}() /Users/kyogurokouki/Local Sites/mspancake/app/public/wp-admin/admin-ajax.php:0
+[12-Feb-2021 14:38:20 UTC] PHP   2. do_action() /Users/kyogurokouki/Local Sites/mspancake/app/public/wp-admin/admin-ajax.php:184
+[12-Feb-2021 14:38:20 UTC] PHP   3. WP_Hook->do_action() /Users/kyogurokouki/Local Sites/mspancake/app/public/wp-includes/plugin.php:484
+[12-Feb-2021 14:38:20 UTC] PHP   4. WP_Hook->apply_filters() /Users/kyogurokouki/Local Sites/mspancake/app/public/wp-includes/class-wp-hook.php:311
+[12-Feb-2021 14:38:20 UTC] PHP   5. Custom_Image_Header->ajax_header_crop() /Users/kyogurokouki/Local Sites/mspancake/app/public/wp-includes/class-wp-hook.php:287
+[12-Feb-2021 14:38:20 UTC] PHP   6. Custom_Image_Header->get_header_dimensions() /Users/kyogurokouki/Local Sites/mspancake/app/public/wp-admin/includes/class-custom-image-header.php:1300

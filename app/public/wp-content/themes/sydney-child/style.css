@@ -1,0 +1,28 @@
+/*
+Theme Name: Sydney Child
+Theme URI: http://athemes.com/theme/sydney
+Author: aThemes
+Author URI: http://athemes.com
+Template: sydney
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sydney
+*/
+
+.home .entry-title {
+  display: none;
+}
+
+/*投稿一覧ページ*/
+.content-area .entry-thumb {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin: 0 20px 30px 0;
+    box-shadow: 3px 3px 5px #aaaaaa;
+}
+
+.panel-row-style-for-23-3 {
+	background-color: #f5f5f5;
+}

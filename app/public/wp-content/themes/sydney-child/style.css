@@ -13,16 +13,3 @@ Text Domain: sydney
 .home .entry-title {
   display: none;
 }
-
-/*投稿一覧ページ*/
-.content-area .entry-thumb {
-    width: 30%;
-    float: left;
-    text-align: center;
-    margin: 0 20px 30px 0;
-    box-shadow: 3px 3px 5px #aaaaaa;
-}
-
-.panel-row-style-for-23-3 {
-	background-color: #f5f5f5;
-}

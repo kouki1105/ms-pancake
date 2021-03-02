@@ -1256,8 +1256,9 @@ Blog
 	}
 	.content-area .hentry {
 		position: relative;
-		padding-top: 50px;
-		padding-bottom: 20px;
+		/* edited */
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 	.content-area .hentry:first-child {
 		padding-top: 0;
@@ -1463,6 +1464,20 @@ Blog
 	}
 	.content-area.modern .read-more-gt {
 		color: #d65050;
+	}
+	/* my-edition */
+	.top-journal {
+		padding: 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.content-area .my-entry-thumb {
+		text-align: center;
+		width: 15%;
+	}
+	.content-area .my-entry-content {
+		width: 80%;
 	}
 /*--------------------------------------------------------------
 Widgets
@@ -3009,7 +3024,8 @@ Panels
 		background-color: #d65050;
 	}
 	.content-area .hentry:after {
-		background-color: #d65050;
+		/* edited */
+		/* background-color: #d65050; */
 	}
 	.hentry .meta-post a:hover {
 		color: #d65050;
